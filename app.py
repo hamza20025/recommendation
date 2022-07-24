@@ -77,8 +77,3 @@ if st.button('Show Recommendation'):
 st.write('  '
          )
 st.write(' ')
-
-EDA = st.checkbox('Show Netflix Exploratory Data Analysis')
-if EDA :
-    st.write(
-        "check out this [link](https://www.kaggle.com/code/rushikeshdane20/in-depth-analysis-of-netflix-with-plotly)")
